@@ -1,1 +1,41 @@
-{"expo":{"name":"CodeClash Tic Tac Toe","slug":"codeclash-tictactoe","version":"1.0.0","orientation":"portrait","icon":"./assets/icon.png","userInterfaceStyle":"automatic","splash":{"image":"./assets/splash.png","resizeMode":"contain","backgroundColor":"#08111f"},"assetBundlePatterns":["**/*"],"ios":{"supportsTablet":true,"bundleIdentifier":"com.codeclash.tictactoe"},"android":{"package":"com.codeclash.tictactoe","versionCode":1,"adaptiveIcon":{"foregroundImage":"./assets/adaptive-icon.png","backgroundColor":"#08111f"}},"extra":{"apiUrl":"http://localhost:4000","eas":{"projectId":"replace-with-eas-project-id"}}}}
+{
+  "expo": {
+    "name": "CodeClash Tic Tac Toe",
+    "slug": "codeclash-tictactoe",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#08111f"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.codeclash.tictactoe"
+    },
+    "android": {
+      "package": "com.codeclash.tictactoe",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#08111f"
+      },
+      "permissions": [
+        "INTERNET",
+        "VIBRATE"
+      ]
+    },
+    "extra": {
+      "apiUrl": "http://localhost:4000",
+      "eas": {
+        "projectId": "92ced35a-2604-45b9-8a32-38204fe3d8bf"
+      }
+    },
+    "owner": "bzr_fn"
+  }
+}
