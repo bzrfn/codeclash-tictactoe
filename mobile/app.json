@@ -36,6 +36,9 @@
         "projectId": "92ced35a-2604-45b9-8a32-38204fe3d8bf"
       }
     },
-    "owner": "bzr_fn"
+    "owner": "bzr_fn",
+    "plugins": [
+      "expo-font"
+    ]
   }
 }
